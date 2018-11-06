@@ -1,0 +1,37 @@
+body {font-family: Gill sans, serif;}
+
+table {border-top: 1px solid silver;
+	border-right: 1px solid black;
+	border-left: 1px solid silver;
+	border-bottom: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	}
+
+th, td {padding: 3px;
+	border-top: 1px solid black;
+	border-right: 1px solid silver;
+	border-left: 1px solid black;
+	border-bottom: 1px solid silver;}	
+
+.table1 {width: 75%;}
+
+.table2 {width: 44%;}
+
+.left {font-weight: bold;}
+
+.table3 {border-spacing: 0px;
+	width: 44%;
+	border-top: 3px solid silver;
+	border-right: 3px solid black;
+	border-left: 3px solid silver;
+	border-bottom: 3px solid black;}
+
+.top {vertical-align: text-top;}
+
+.left2 {text-align: left;}
+
+
+

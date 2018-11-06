@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Forms</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="form.css" type="text/css">
+</head>
+<body>
+	<form method="GET">
+	<fieldset>
+			<legend class="strong">
+				Коротко о себе
+			</legend>
+		<div>	
+			<label>Имя:
+				<input class="space" type="text" name="name" size="30">
+			</label>
+		</div>
+		<div>
+			<label>Фамилия:
+				<input class="space" type="text" name="surname" size="30">
+			</label>
+		</div>
+		<div>
+			Пол:
+				<label>
+					<input type="radio" name="sex" value="man"> мужской
+				</label>
+				<label>
+					<input type="radio" name="sex" value="woman"> женский
+				</label>
+		</div>
+		<div>
+			<label>Возраст:
+				<input class="space" type="text" name="age" size="4"> лет
+			</label>
+		</div>	
+	</fieldset>
+	<fieldset>
+			<legend class="strong">
+				Подробнее о себе
+			</legend>
+		<div>	
+			<label class="small">
+				<input type="radio" name="sex2"> Молодой человек
+			</label>
+		</div>
+		<div>
+			<label class="small"><input type="radio" name="sex2"> Девушка
+			</label>
+		</div>
+		<div>		
+			<label class="small">
+				<input type="date" name="date" id="size"> Дата рождения
+			</label>
+		</div>	
+		<div>
+			<label class="small">
+				<input type="text" name="state" size="15"> Семейное положение
+			</label>
+		</div>
+		<div>
+			<label class="small">
+				<input type="text" name="status" size="15"> Социальный статус
+			</label>
+		</div>	
+		<div>
+			<label class="small">
+				<input type="text" name="location" size="15"> Местоположение
+			</label>
+		</div>	
+			<p class="strong">Что вы обычно делаете на выходных:</p>
+		<div>	
+			<label>
+				<input type="checkbox" name="sleep"> Сплю
+			</label>
+		</div>	
+		<div>
+			<label>
+				<input type="checkbox" name="walking"> Гуляю с друзьями
+			</label>
+		</div>	
+		<div>
+			<label>
+				<input type="checkbox" name="fishing"> Хожу на рыбалку
+			</label>
+		</div>	
+		<div>
+			<label>
+				<input type="checkbox" name="playing"> Играю в игры
+			</label>
+		</div>	
+			<p class="strong">Рассказать о формах в книге, посвященной HTML:</p>
+		<div>
+			<select name="book">
+				<option >site frequency</option>
+			</select>
+		</div>	
+			<p class="strong">Сколько книг вы прочитали за свою жизнь:</p>
+		<div>	
+			<label>
+				<input type="radio" name="books"> 0-10
+			</label>
+		</div>	
+		<div>
+			<label>
+				<input type="radio" name="books"> 11-20
+			</label>
+		</div>	
+		<div>
+			<label>
+				<input type="radio" name="books"> 21-50
+			</label>
+		</div>	
+		<div>
+			<label>
+				<input type="radio" name="books"> 50+
+			</label>
+		</div>	
+			<label class="strong">Ваши комментарии <br>
+			<textarea name="comments" rows="7" cols="50">
+			</textarea>
+			</label>
+		<div class="margin">
+			<select name="positions" multiple size="3">
+				<option>Первая позиция</option>
+				<option selected>Вторая позиция</option>
+				<option>Третья позиция</option>
+			</select>
+		</div>	
+	</fieldset>
+	<fieldset>
+		<legend class="strong">
+			И в заключении
+		</legend>
+	<div>
+			<input class="space" type="text" name="y" size="30" value="Это поле было введено до Вас">
+	</div>
+	<div>	
+		<label class="strong">
+			Email <br>	
+			<input class="space" type="email" name="email" size="30">	
+		</label>
+	</div>
+	<div class="space"><strong>Хотите подписаться на самую модную рассылку спама?</strong><br>
+		<i>Выберите категории</i>
+	</div>
+	<div>
+		<label>
+			<input type="checkbox" name="1"> Оборудование
+		</label>
+	</div>
+	<div>
+		<label>
+			<input type="checkbox" name="2"> Как приготовить обеды
+		</label>
+	</div>
+	<div>
+		<label>
+			<input type="checkbox" name="3"> Заработай миллион за два дня!
+		</label>
+	</div>	
+		<p class="strong">На сколько сложная задача</p>
+	<div>		
+		<label>
+			<input type="radio" name="dificult" checked> Совсем нет
+		</label>
+	</div>	
+	<div>
+		<label>
+			<input type="radio" name="dificult"> Так себе
+		</label>
+	</div>	
+	<div>
+		<label>
+			<input type="radio" name="dificult"> Еле справились
+		</label>
+	</div>	
+	</fieldset>
+	<input type="submit" name="send" value="Отправить">
+	</form>
+</body>
+</html>
